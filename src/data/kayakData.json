@@ -1,0 +1,44 @@
+{ 
+    "icons": {
+        "kayakWhite": "https://i.imgur.com/GERXUqf.png",
+        "userLogo": "https://i.imgur.com/Qbw5ADT.png",
+        "airplane": "https://i.imgur.com/5fzEeiI.png",
+        "bed": "https://i.imgur.com/iJeDYcx.png",
+        "car": "https://i.imgur.com/tZJRMK2.png",
+        "umbrella": "https://i.imgur.com/71Xfe6x.png",
+        "iconsDark": "https://i.imgur.com/oV07n7x.png",
+        "logoCircle": "https://i.imgur.com/MTehq7c.png",
+        "appStore": "https://i.imgur.com/gvQOY0x.png",
+        "playStore": "https://i.imgur.com/xobafg1.png",
+        "logoOrange": "https://i.imgur.com/uQeqoz9.png",
+        "facebook": "https://i.imgur.com/8Oqd7tU.png",
+        "twitter": "https://i.imgur.com/anLfMg1.png",
+        "instagram": "https://i.imgur.com/03WGEat.png"
+    },
+    "dotd": {
+        "image": "https://i.imgur.com/RuAig9h.png",
+        "location": "Ireland",
+        "description": "8 days with air, hotel and car rental. Use promo code CFD110 to save. Price reflects TOR departure, other cities available.",
+        "saveAmount": "Save $110 with code",
+        "finePrint": "Gate 1 Travel",
+        "price": "$649+"
+    },
+    "offers": [
+        {
+            "image": "https://i.imgur.com/4cAWnS7.png",
+            "location": "Cancun",
+            "description": "4 nights with air and Melody Maker Cancun stay. Price reflects TOR departure, other cities available.",
+            "saveAmount": "Save up to 65%",
+            "finePrint": "CheapCaribbean.com",
+            "price": "$429+"
+        },
+        {
+            "image": "https://i.imgur.com/zD3XQr7.jpg",
+            "location": "China",
+            "description": "Explore the Great Wall with 8 nights with air and accommodation. Price reflects TOR departure, other cities available.",
+            "saveAmount": "Save up to 25%",
+            "finePrint": "VisitChina.com",
+            "price": "$889+"
+        }
+    ]
+}

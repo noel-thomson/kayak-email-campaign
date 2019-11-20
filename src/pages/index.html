@@ -1,0 +1,52 @@
+---
+layout: kayak
+subject: Deal of the Day
+---
+
+<container>
+  <row class="deal-of-day">
+    <columns>
+      <h1 class="text-center">{{subject}}</h1>
+      <center><img src="{{kayakData.dotd.image}}" alt=""></center>
+      <p class="text-center">
+        {{kayakData.dotd.location}}: {{kayakData.dotd.description}}
+      </p>
+      <span class="save-amount text-center">{{kayakData.dotd.saveAmount}}</span>
+      <span class="fine-print text-center">{{kayakData.dotd.finePrint}}</span>
+      <span class="price text-center">{{kayakData.dotd.price}}</span>
+      <a href="https://github.com/noel-thomson/"><span class="button text-center">See Deal</span></a>
+    </columns>
+  </row>
+  <row class="content-area">
+    <columns>
+      {{#each kayakData.offers}}
+      <row class="offer">
+        <columns>
+          <img src="{{this.image}}" alt="">
+          <p class="text-center">
+            {{this.location}}: {{this.description}}
+          </p>
+          <span class="save-amount text-center">{{this.saveAmount}}</span>
+          <span class="fine-print text-center">{{this.finePrint}}</span>
+          <span class="price text-center">{{this.price}}</span>
+          <a href="https://github.com/noel-thomson/"><span class="button text-center">See Deal</span></a>
+        </columns>
+      </row>
+      {{/each}}
+    </columns>
+  </row>
+  <row class="content-area">
+    <columns class="offer-end">
+      <row class="offer">
+        <columns>
+          <img class="icons-dark" src="{{kayakData.icons.iconsDark}}" alt="">
+          <p class="text-center">
+            Still looking? There's more
+          </p>
+          <span class="info text-center">Search hundreds of deals to suit your budget on flights, packages, cruises and more.</span>
+          <a href="https://github.com/noel-thomson/"><span class="button text-center">See All Deals</span></a>
+        </columns>
+      </row>
+    </columns>
+  </row>
+</container>
