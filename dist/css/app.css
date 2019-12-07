@@ -555,6 +555,8 @@ body,
 .body {
   background: #E4E5EA;
   background-color: #E4E5EA; }
+  html p, html span, body p, body span, .body p, .body span {
+    hyphens: none !important; }
   html .header,
   body .header,
   .body .header {
@@ -698,7 +700,10 @@ body,
         html .content-area .columns .offer .columns,
         body .content-area .columns .offer .columns,
         .body .content-area .columns .offer .columns {
-          padding: 24px !important; }
+          padding-top: 24px !important;
+          padding-right: 24px !important;
+          padding-bottom: 24px !important;
+          padding-left: 24px !important; }
           html .content-area .columns .offer .columns p,
           body .content-area .columns .offer .columns p,
           .body .content-area .columns .offer .columns p {
@@ -754,48 +759,49 @@ body,
           font-weight: 500;
           margin-top: 10px;
           margin-bottom: 10px; }
-  html .app-cta,
-  body .app-cta,
-  .body .app-cta {
+  html .footer-app-cta,
+  body .footer-app-cta,
+  .body .footer-app-cta {
     background: #1F2830;
     background-color: #1F2830; }
-    html .app-cta .first-column,
-    body .app-cta .first-column,
-    .body .app-cta .first-column {
+    html .footer-app-cta .first-column,
+    body .footer-app-cta .first-column,
+    .body .footer-app-cta .first-column {
       padding: 25px 0 25px 25px; }
-      html .app-cta .first-column img,
-      body .app-cta .first-column img,
-      .body .app-cta .first-column img {
+      html .footer-app-cta .first-column img,
+      body .footer-app-cta .first-column img,
+      .body .footer-app-cta .first-column img {
         width: 40px; }
-      html .app-cta .first-column span,
-      body .app-cta .first-column span,
-      .body .app-cta .first-column span {
+      html .footer-app-cta .first-column span,
+      body .footer-app-cta .first-column span,
+      .body .footer-app-cta .first-column span {
         font-size: 14px;
         color: white;
         font-weight: 700;
         margin-left: 5px; }
-      html .app-cta .first-column span:nth-of-type(2),
-      body .app-cta .first-column span:nth-of-type(2),
-      .body .app-cta .first-column span:nth-of-type(2) {
+      html .footer-app-cta .first-column span:nth-of-type(2),
+      body .footer-app-cta .first-column span:nth-of-type(2),
+      .body .footer-app-cta .first-column span:nth-of-type(2) {
         font-size: 12px;
         display: block;
         margin-top: 5px; }
-    html .app-cta .second-column,
-    body .app-cta .second-column,
-    .body .app-cta .second-column {
+    html .footer-app-cta .second-column,
+    body .footer-app-cta .second-column,
+    .body .footer-app-cta .second-column {
       padding: 25px 25px 25px 0; }
-      html .app-cta .second-column img,
-      body .app-cta .second-column img,
-      .body .app-cta .second-column img {
-        height: 40px; }
+      html .footer-app-cta .second-column img,
+      body .footer-app-cta .second-column img,
+      .body .footer-app-cta .second-column img {
+        height: 42px;
+        width: 130px; }
     @media (max-width: 596px) {
-      html .app-cta .first-column img,
-      body .app-cta .first-column img,
-      .body .app-cta .first-column img {
+      html .footer-app-cta .first-column img,
+      body .footer-app-cta .first-column img,
+      .body .footer-app-cta .first-column img {
         margin: 0 auto; }
-      html .app-cta .first-column span,
-      body .app-cta .first-column span,
-      .body .app-cta .first-column span {
+      html .footer-app-cta .first-column span,
+      body .footer-app-cta .first-column span,
+      .body .footer-app-cta .first-column span {
         display: block;
         text-align: center; } }
   html .footer-header .header, html .footer-header .sub-header, body .footer-header .header, body .footer-header .sub-header, .body .footer-header .header, .body .footer-header .sub-header {

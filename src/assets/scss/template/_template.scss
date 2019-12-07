@@ -3,6 +3,9 @@ body,
 .body {
     background: #E4E5EA;
     background-color: #E4E5EA;
+  p, span {
+    hyphens: none !important;
+  }
 
   .header {
     background: #FF6910;
@@ -144,7 +147,10 @@ body,
         background-color: white;
 
         .columns {
-          padding: 24px !important;
+          padding-top: 24px !important;
+          padding-right: 24px !important;
+          padding-bottom: 24px !important;
+          padding-left: 24px !important;
 
           p {
             font-weight: 700;
@@ -207,7 +213,7 @@ body,
     }
   }
 
-  .app-cta {
+  .footer-app-cta {
     background: #1F2830;
     background-color: #1F2830;
     
@@ -231,7 +237,8 @@ body,
     .second-column {
       padding: 25px 25px 25px 0;
       img {
-        height: 40px;
+        height: 42px;
+        width: 130px;
       }
     }
     @media (max-width: 596px) {
