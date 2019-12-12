@@ -18,26 +18,26 @@
     "dotd": {
         "image": "https://i.imgur.com/RuAig9h.png",
         "location": "Ireland",
-        "description": "8 days with air, hotel and car rental. Use promo code CFD110 to save. Price reflects TOR departure, other cities available.",
+        "description": "8 days with air, hotel and car rental. Use promo code CFD110 to save. Price reflects TOR departure.",
         "saveAmount": "Save $110 with code",
-        "finePrint": "Gate 1 Travel",
+        "finePrint": "Gate1Travel.com",
         "price": "$649+"
     },
     "offers": [
         {
             "image": "https://i.imgur.com/4cAWnS7.png",
             "location": "Cancun",
-            "description": "4 nights with air and Melody Maker Cancun stay. Price reflects TOR departure, other cities available.",
-            "saveAmount": "Save up to 65%",
+            "description": "4 nights with air and Melody Maker Cancun stay. Price reflects TOR departure.",
+            "saveAmount": "Save up to 35%",
             "finePrint": "CheapCaribbean.com",
             "price": "$429+"
         },
         {
             "image": "https://i.imgur.com/zD3XQr7.jpg",
             "location": "China",
-            "description": "Explore the Great Wall with 8 nights with air and accommodation. Price reflects TOR departure, other cities available.",
+            "description": "Explore the Great Wall with 8 nights with air and accommodation. Price reflects TOR departure.",
             "saveAmount": "Save up to 25%",
-            "finePrint": "VisitChina.com",
+            "finePrint": "ChinaDiscovery.com",
             "price": "$889+"
         }
     ]

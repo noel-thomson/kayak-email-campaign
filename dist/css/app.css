@@ -565,16 +565,29 @@ body,
     html .header .columns,
     body .header .columns,
     .body .header .columns {
-      padding: 20px 30px; }
+      padding-top: 20px;
+      padding-right: 30px !important;
+      padding-bottom: 20px !important;
+      padding-left: 30px !important; }
       html .header .columns #kayak-logo,
       body .header .columns #kayak-logo,
       .body .header .columns #kayak-logo {
-        width: 126px; }
+        width: 126px;
+        min-width: 110px; }
       html .header .columns #user-logo,
       body .header .columns #user-logo,
       .body .header .columns #user-logo {
-        width: 32px;
+        max-width: 32px;
         float: right; }
+    html .header .first,
+    body .header .first,
+    .body .header .first {
+      padding-top: 22px; }
+    @media (max-width: 320px) {
+      html .header .first,
+      body .header .first,
+      .body .header .first {
+        padding-top: 26px !important; } }
   html .sub-header,
   body .sub-header,
   .body .sub-header {
@@ -583,7 +596,10 @@ body,
     html .sub-header .columns,
     body .sub-header .columns,
     .body .sub-header .columns {
-      padding: 10px 0; }
+      padding-top: 10px !important;
+      padding-right: 0;
+      padding-bottom: 10px !important;
+      padding-left: 0; }
     html .sub-header .first,
     body .sub-header .first,
     .body .sub-header .first {
@@ -625,64 +641,77 @@ body,
       body .sub-header .columns,
       .body .sub-header .columns {
         padding: 10px 0 !important; } }
-  html .deal-of-day,
-  body .deal-of-day,
-  .body .deal-of-day {
-    background: #14181C;
-    background-color: #14181C; }
-    html .deal-of-day .columns,
-    body .deal-of-day .columns,
-    .body .deal-of-day .columns {
-      padding: 20px; }
-      html .deal-of-day .columns h1,
-      body .deal-of-day .columns h1,
-      .body .deal-of-day .columns h1 {
-        color: white;
-        font-weight: 900; }
-      html .deal-of-day .columns img,
-      body .deal-of-day .columns img,
-      .body .deal-of-day .columns img {
-        margin-top: 20px; }
-      html .deal-of-day .columns p,
-      body .deal-of-day .columns p,
-      .body .deal-of-day .columns p {
-        color: white;
-        font-weight: 700;
-        margin-top: 20px;
-        font-size: 16px; }
-      html .deal-of-day .columns span,
-      body .deal-of-day .columns span,
-      .body .deal-of-day .columns span {
-        color: white;
-        display: block; }
-      html .deal-of-day .columns .save-amount,
-      body .deal-of-day .columns .save-amount,
-      .body .deal-of-day .columns .save-amount {
-        font-size: 14px;
-        font-weight: 700;
-        margin-top: 10px; }
-      html .deal-of-day .columns .fine-print,
-      body .deal-of-day .columns .fine-print,
-      .body .deal-of-day .columns .fine-print {
-        margin-top: 3px;
-        font-size: 9px;
-        font-weight: 700; }
-      html .deal-of-day .columns .price,
-      body .deal-of-day .columns .price,
-      .body .deal-of-day .columns .price {
-        font-weight: 900;
-        font-size: 18px;
-        margin-top: 8px; }
-      html .deal-of-day .columns .button,
-      body .deal-of-day .columns .button,
-      .body .deal-of-day .columns .button {
-        padding: 6px 0;
-        margin: 8px auto 0;
-        width: 150px;
-        border: 1px solid white;
-        border-radius: 2px;
-        font-size: 14px;
-        font-weight: 700; }
+  html .featured-offer-area,
+  body .featured-offer-area,
+  .body .featured-offer-area {
+    background: #EFF2F6;
+    background-color: #EFF2F6; }
+    html .featured-offer-area .columns,
+    body .featured-offer-area .columns,
+    .body .featured-offer-area .columns {
+      padding-top: 16px !important;
+      padding-bottom: 0px !important; }
+      html .featured-offer-area .columns .deal-of-the-day,
+      body .featured-offer-area .columns .deal-of-the-day,
+      .body .featured-offer-area .columns .deal-of-the-day {
+        background: #14181C;
+        background-color: #14181C; }
+        html .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns,
+        body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns,
+        .body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns {
+          padding-top: 24px !important;
+          padding-right: 24px !important;
+          padding-bottom: 24px !important;
+          padding-left: 24px !important; }
+          html .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns h1,
+          body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns h1,
+          .body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns h1 {
+            color: white;
+            font-weight: 900; }
+          html .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns img,
+          body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns img,
+          .body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns img {
+            margin-top: 20px; }
+          html .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns p,
+          body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns p,
+          .body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns p {
+            color: white;
+            font-weight: 700;
+            margin-top: 20px;
+            font-size: 16px; }
+          html .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns span,
+          body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns span,
+          .body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns span {
+            color: white;
+            display: block; }
+          html .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns .save-amount,
+          body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns .save-amount,
+          .body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns .save-amount {
+            font-size: 14px;
+            font-weight: 700;
+            margin-top: 10px; }
+          html .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns .fine-print,
+          body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns .fine-print,
+          .body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns .fine-print {
+            margin-top: 3px;
+            font-size: 9px;
+            font-weight: 400 !important; }
+          html .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns .price,
+          body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns .price,
+          .body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns .price {
+            font-weight: 900;
+            font-size: 18px;
+            margin-top: 8px; }
+          html .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns a span, html .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns .button, body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns a span, body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns .button, .body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns a span, .body .featured-offer-area .columns .deal-of-the-day .deal-of-the-day-columns .button {
+            background: #14181C;
+            background-color: #14181C;
+            padding: 6px 0;
+            margin: 8px auto 0;
+            width: 150px;
+            border: 1px solid white;
+            border-radius: 2px;
+            font-size: 14px;
+            font-weight: 700; }
   html .content-area,
   body .content-area,
   .body .content-area {
@@ -767,55 +796,105 @@ body,
     html .footer-app-cta .first-column,
     body .footer-app-cta .first-column,
     .body .footer-app-cta .first-column {
-      padding: 25px 0 25px 25px; }
-      html .footer-app-cta .first-column img,
-      body .footer-app-cta .first-column img,
-      .body .footer-app-cta .first-column img {
-        width: 40px; }
-      html .footer-app-cta .first-column span,
-      body .footer-app-cta .first-column span,
-      .body .footer-app-cta .first-column span {
-        font-size: 14px;
-        color: white;
-        font-weight: 700;
-        margin-left: 5px; }
-      html .footer-app-cta .first-column span:nth-of-type(2),
-      body .footer-app-cta .first-column span:nth-of-type(2),
-      .body .footer-app-cta .first-column span:nth-of-type(2) {
-        font-size: 12px;
-        display: block;
-        margin-top: 5px; }
+      padding-top: 25px !important;
+      padding-right: 0px !important;
+      padding-bottom: 25px !important;
+      padding-left: 25px !important; }
+      html .footer-app-cta .first-column .columns,
+      body .footer-app-cta .first-column .columns,
+      .body .footer-app-cta .first-column .columns {
+        padding-bottom: 0px; }
+        html .footer-app-cta .first-column .columns img,
+        body .footer-app-cta .first-column .columns img,
+        .body .footer-app-cta .first-column .columns img {
+          width: 40px; }
+        html .footer-app-cta .first-column .columns span,
+        body .footer-app-cta .first-column .columns span,
+        .body .footer-app-cta .first-column .columns span {
+          font-size: 14px;
+          color: white;
+          font-weight: 700; }
+        html .footer-app-cta .first-column .columns span:nth-of-type(2),
+        body .footer-app-cta .first-column .columns span:nth-of-type(2),
+        .body .footer-app-cta .first-column .columns span:nth-of-type(2) {
+          font-size: 12px;
+          display: block;
+          margin-top: 5px; }
+        html .footer-app-cta .first-column .columns .download, html .footer-app-cta .first-column .columns .details, body .footer-app-cta .first-column .columns .download, body .footer-app-cta .first-column .columns .details, .body .footer-app-cta .first-column .columns .download, .body .footer-app-cta .first-column .columns .details {
+          margin-right: 3px; }
+    @media (max-width: 596px) {
+      html .footer-app-cta .first-column .columns,
+      body .footer-app-cta .first-column .columns,
+      .body .footer-app-cta .first-column .columns {
+        padding-bottom: 2px !important; }
+        html .footer-app-cta .first-column .columns img,
+        body .footer-app-cta .first-column .columns img,
+        .body .footer-app-cta .first-column .columns img {
+          margin-top: 0px;
+          margin-right: auto;
+          margin-bottom: 2px;
+          margin-left: auto; }
+        html .footer-app-cta .first-column .columns span,
+        body .footer-app-cta .first-column .columns span,
+        .body .footer-app-cta .first-column .columns span {
+          display: block;
+          text-align: center; } }
     html .footer-app-cta .second-column,
     body .footer-app-cta .second-column,
     .body .footer-app-cta .second-column {
-      padding: 25px 25px 25px 0; }
+      padding-top: 25px !important;
+      padding-right: 25px !important;
+      padding-bottom: 25px !important;
+      padding-left: 0px !important; }
       html .footer-app-cta .second-column img,
       body .footer-app-cta .second-column img,
       .body .footer-app-cta .second-column img {
         height: 42px;
         width: 130px; }
+      html .footer-app-cta .second-column .app-store-container,
+      body .footer-app-cta .second-column .app-store-container,
+      .body .footer-app-cta .second-column .app-store-container {
+        padding-bottom: 0px; }
+    html .footer-app-cta .last,
+    body .footer-app-cta .last,
+    .body .footer-app-cta .last {
+      padding-bottom: 0px; }
     @media (max-width: 596px) {
-      html .footer-app-cta .first-column img,
-      body .footer-app-cta .first-column img,
-      .body .footer-app-cta .first-column img {
-        margin: 0 auto; }
-      html .footer-app-cta .first-column span,
-      body .footer-app-cta .first-column span,
-      .body .footer-app-cta .first-column span {
-        display: block;
-        text-align: center; } }
+      html .footer-app-cta .app-store-container,
+      body .footer-app-cta .app-store-container,
+      .body .footer-app-cta .app-store-container {
+        padding-bottom: 2px !important; } }
+    @media (max-width: 320px) {
+      html .footer-app-cta .details,
+      body .footer-app-cta .details,
+      .body .footer-app-cta .details {
+        display: none !important; } }
   html .footer-header .header, html .footer-header .sub-header, body .footer-header .header, body .footer-header .sub-header, .body .footer-header .header, .body .footer-header .sub-header {
     background: #14181C;
     background-color: #14181C; }
   html .footer-header .header .logos-column,
   body .footer-header .header .logos-column,
   .body .footer-header .header .logos-column {
-    padding-left: 0; }
+    padding-left: 0px !important;
+    padding-right: 30px;
+    width: 105px;
+    float: right; }
     html .footer-header .header .logos-column .social-logo,
     body .footer-header .header .logos-column .social-logo,
     .body .footer-header .header .logos-column .social-logo {
       width: 32px;
       display: inline-block; }
+  @media (max-width: 596px) {
+    html .footer-header .header .logos-column,
+    body .footer-header .header .logos-column,
+    .body .footer-header .header .logos-column {
+      width: 135px !important;
+      padding-left: 0px !important; } }
+  @media (max-width: 290px) {
+    html .footer-header .header .logos-column,
+    body .footer-header .header .logos-column,
+    .body .footer-header .header .logos-column {
+      display: none !important; } }
   html .footer-header .sub-header,
   body .footer-header .sub-header,
   .body .footer-header .sub-header {
@@ -833,7 +912,10 @@ body,
     html .footer-bottom .footer-bottom-container,
     body .footer-bottom .footer-bottom-container,
     .body .footer-bottom .footer-bottom-container {
-      padding: 30px; }
+      padding-top: 30px !important;
+      padding-right: 30px !important;
+      padding-bottom: 30px !important;
+      padding-left: 30px !important; }
       html .footer-bottom .footer-bottom-container .links-container,
       body .footer-bottom .footer-bottom-container .links-container,
       .body .footer-bottom .footer-bottom-container .links-container {
@@ -867,5 +949,12 @@ body,
       body .footer-bottom .footer-bottom-container p,
       .body .footer-bottom .footer-bottom-container p {
         color: white;
-        font-size: 12px;
-        padding-bottom: 20px; }
+        font-size: 12px; }
+      html .footer-bottom .footer-bottom-container .copyright,
+      body .footer-bottom .footer-bottom-container .copyright,
+      .body .footer-bottom .footer-bottom-container .copyright {
+        text-align: center; }
+        html .footer-bottom .footer-bottom-container .copyright a,
+        body .footer-bottom .footer-bottom-container .copyright a,
+        .body .footer-bottom .footer-bottom-container .copyright a {
+          color: white; }

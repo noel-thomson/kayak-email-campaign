@@ -4,17 +4,21 @@ subject: Deal of the Day
 ---
 
 <container>
-  <row class="deal-of-day">
-    <columns>
-      <h1 class="text-center">{{subject}}</h1>
-      <center><img src="{{kayakData.dotd.image}}" alt=""></center>
-      <p class="text-center">
-        {{kayakData.dotd.location}}: {{kayakData.dotd.description}}
-      </p>
-      <span class="save-amount text-center">{{kayakData.dotd.saveAmount}}</span>
-      <span class="fine-print text-center">{{kayakData.dotd.finePrint}}</span>
-      <span class="price text-center">{{kayakData.dotd.price}}</span>
-      <a href="https://github.com/noel-thomson/"><span class="button text-center">See Deal</span></a>
+  <row class="featured-offer-area">
+      <columns>
+        <row class="deal-of-the-day">
+          <columns class="deal-of-the-day-columns">
+            <h1 class="text-center">{{subject}}</h1>
+            <img src="{{kayakData.dotd.image}}" alt="">
+            <p class="text-center">
+              {{kayakData.dotd.location}}: {{kayakData.dotd.description}}
+            </p>
+            <span class="save-amount text-center">{{kayakData.dotd.saveAmount}}</span>
+            <span class="fine-print text-center">{{kayakData.dotd.finePrint}}</span>
+            <span class="price text-center">{{kayakData.dotd.price}}</span>
+            <a href="https://github.com/noel-thomson/"><span class="button text-center">See Deal</span></a>
+          </columns>
+        </row>
     </columns>
   </row>
   <row class="content-area">
